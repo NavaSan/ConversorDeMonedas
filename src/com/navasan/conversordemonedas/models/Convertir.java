@@ -14,7 +14,7 @@ public class Convertir {
         Monedas monedas = consulta.ConvertirMoneda(monedaPrincipal);
         double monedaValor = monedas.conversion_rates().get(monedaConvertir);
         double resultado = monto * monedaValor;
-        String convertido = "El valor " + monto + " [" + monedaPrincipal + "] corresponde al valor final de =>>>> " + resultado + " [" + monedaConvertir + "]" + " Fecha = " + LocalDateTime.now();
+        String convertido = "El valor " + monto + " [" + monedaPrincipal + "] corresponde al valor final de =>>>> " + resultado + " [" + monedaConvertir + "]" + " Fecha = " + LocalDateTime.now()+"]\n";
         historial.add(convertido);
 
         return convertido;

@@ -13,3 +13,8 @@
 </ul>
 
 ## ¿Como funciona?
+<p>
+Esta pequeña aplicacion nos permite convertir diferentes divisas como lo podemos ver en la siguiente imagen:
+</p>
+
+![menu.PNG](..%2F..%2F..%2FPictures%2Fmenu.PNG)

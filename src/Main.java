@@ -1,14 +1,5 @@
-import com.google.gson.FieldNamingPolicy;
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
-import com.navasan.conversordemonedas.conexion.ConsultarApi;
 import com.navasan.conversordemonedas.models.Convertir;
-import com.navasan.conversordemonedas.models.HistorialConverciones;
-import com.navasan.conversordemonedas.models.Monedas;
 
-import java.io.Reader;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
